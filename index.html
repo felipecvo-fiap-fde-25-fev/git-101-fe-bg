@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
-</head>
-<body>
-    <h1>Git</h1>
-    <p>git config --global user.name &lt;Seu nome&gt;</p>
-    <p>git config --global user.email &lt;Seu email&gt;</p>
-    <p>git branch</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>Qualquer duvida, falar com o <a href="/contato.html">MAX!</a></p>
+    <table>
+        <thead>
+            <tr>
+              <th colspan="3">Tabela de Pessoas</th>
+            </tr>
+            <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Cidade</th>
+            </tr>
+        </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>25</td>
+          <td>São Paulo</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>30</td>
+          <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>22</td>
+          <td>Belo Horizonte</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total de pessoas: 3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Média de idade: 25.67</td>
+        </tr>
+      </tfoot>
+    </table>
+    <table class="table-striped">
+      <tr>
+        <td rowspan="5">Dados</td>
+      </tr>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+        <th>Música Favorita</th>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>São Paulo</td>
+        <td>Rock</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>30</td>
+        <td>Rio de Janeiro</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ana</td>
+        <td>22</td>
+        <td>Belo Horizonte</td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
 </html>
